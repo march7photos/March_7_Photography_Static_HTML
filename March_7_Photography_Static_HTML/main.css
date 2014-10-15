@@ -1,0 +1,204 @@
+
+
+body {
+background-color: #fff;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+letter-spacing: 0.5px;
+}
+
+
+.name {
+letter-spacing: 10px;
+font-weight: 100;
+color: #D8D3DB;
+margin-bottom: 30px;
+margin-top: 50px;
+
+}
+
+a {
+text-decoration: none;
+color: #A6A2A8;
+font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+color: #333;
+}
+
+.highlight {
+color: #75A2D1;
+}
+
+
+
+/* wrap */
+
+#wrap {
+width: 980px;
+margin: 30px auto;
+background: #fff;
+}
+
+
+/* navigation*/
+
+#nav {
+margin-top: 30px;
+margin-bottom: 40px;
+}
+
+
+#nav ul {
+text-align: center;
+}
+
+#nav ul li {
+display: inline;
+padding-right: 60px;
+}
+
+
+#nav ul a {
+font-family: 'Lato', sans-serif;
+font-size: 22px;
+letter-spacing: 10px;
+}
+
+#nav a:hover {
+color: #333;
+}
+
+.port {
+	font-size: 25px;
+	font-weight: 100;
+	color: #A6A2A8;
+	letter-spacing: 5px;
+}
+
+.portleft {
+	float: right;
+	font-size: 25px;
+	font-weight: 100;
+	color: #A6A2A8;
+	letter-spacing: 5px;
+	padding-bottom: 100px;
+}
+
+
+/* thumbs */
+
+#thumbs {   
+width: 980px;
+margin-top: 0px;
+margin-left: auto; 
+margin-right: auto;
+text-align: justify;
+text-justify: distribute-all-lines;
+}
+
+#thumbs a {
+vertical-align: top;
+display: inline-block;
+*display: inline;
+}
+
+.stretch {
+width: 100%;
+display: inline-block;
+font-size: 0;
+line-height: 0
+}
+
+
+
+/* form */
+
+form    {
+color: #73A606;
+margin: auto;
+width: 550px;
+font-size: 18px;
+line-height: 30px;
+padding-left: 20px;
+padding-bottom: 20px;
+border: 1px solid #F4F4F4;
+margin-top: 80px
+}
+
+input {
+width: 520px;
+}
+
+textarea {
+width: 520px;
+}
+
+/* about */
+
+.aboutcont {
+font-size: 17px;
+color: #A6A2A8;
+float: right;
+margin-top: 80px;
+width: 65%;
+line-height: 2;
+text-align: justify;
+}
+
+.rcont {
+font-size: 17px;
+color: #A6A2A8;
+float: right;
+margin-top: 40px;
+width: 65%;
+line-height: 2;
+text-align: justify;
+}
+
+
+.mpic {
+padding: 5px;
+float: left;
+width: 300px;
+margin-left: 70px;
+margin-top: 60px;
+clear: both;
+}
+ ul {
+ list-style: none;
+ }
+
+.mikelist{
+font-size: 17px;
+color: #A6A2A8;
+float: right;
+width: 55%;
+line-height: 1.5;
+margin-bottom: 50px;
+margin-top: -15px;
+}
+
+
+/* footer  */
+
+#footer {
+font-size: 13px;
+letter-spacing: 5px;
+color: #A6A2A8;
+clear: both;
+margin-top: 100px;
+margin-bottom: 40px;
+}
+
+#footer a {
+text-decoration: none;
+color: #A6A2A8;
+}
+
+#footer a:hover {
+color: #333;
+}
+
+
