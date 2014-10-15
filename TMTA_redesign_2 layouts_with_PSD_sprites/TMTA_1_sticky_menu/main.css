@@ -1,0 +1,288 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;	
+}
+
+#wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+
+ 
+h1, h2, p, th {
+	text-align: center;
+	padding: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+
+a {
+	text-decoration: none;	
+	color: #000;
+}
+
+
+
+/*nav*/
+
+nav {
+	background: url(images/tmtaSprite.png) repeat-x;
+	height: 50px;
+	width: 960px;
+	position: fixed;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;	
+}
+
+nav a {
+	display: block;
+	height: 50px;
+	width: 160px;
+	text-decoration: none;
+	-webkit-transition: all 0.1s ease-in;
+	-ms-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+}
+
+nav span {
+	visibility: hidden;
+}
+
+	/*home*/
+nav a[href="home.html"] {
+	background: url(images/tmtaSprite.png) no-repeat 0 0;
+	overflow: hidden; 
+}
+	
+nav a[href="home.html"]:hover {
+	background: url(images/tmtaSprite.png) no-repeat 0 -50px;
+	overflow: hidden;
+}
+
+	/*neswletter*/
+nav a[href="newsletter.html"] {
+	background: url(images/tmtaSprite.png) no-repeat -160px 0;
+	overflow: hidden; 
+}
+	
+nav a[href="newsletter.html"]:hover {
+	background: url(images/tmtaSprite.png) no-repeat -160px -50px;
+	overflow: hidden;
+}
+
+	/*about*/
+nav a[href="about.html"] {
+	background: url(images/tmtaSprite.png) no-repeat -320px 0;
+	overflow: hidden; 
+}
+	
+nav a[href="about.html"]:hover {
+	background: url(images/tmtaSprite.png) no-repeat -320px -50px;
+	overflow: hidden;
+}
+
+	/*join us*/
+nav a[href="joinus.html"] {
+	background: url(images/tmtaSprite.png) no-repeat -480px 0;
+	overflow: hidden; 
+}
+	
+nav a[href="joinus.html"]:hover {
+	background: url(images/tmtaSprite.png) no-repeat -480px -50px;
+	overflow: hidden;
+}
+
+	/*directors*/
+nav a[href="directors.html"] {
+	background: url(images/tmtaSprite.png) no-repeat -640px 0;
+	overflow: hidden; 
+}
+	
+nav a[href="directors.html"]:hover {
+	background: url(images/tmtaSprite.png) no-repeat -640px -50px;
+	overflow: hidden;
+}
+
+	/*contact*/
+nav a[href="contact.html"] {
+	background: url(images/tmtaSprite.png) no-repeat -800px 0;
+	overflow: hidden; 
+}
+	
+nav a[href="contact.html"]:hover {
+	background: url(images/tmtaSprite.png) no-repeat -800px -50px;
+	overflow: hidden;
+}
+
+/*columns*/
+
+.leftCol {
+	float: left;
+	display: inline-block;
+	width: 33.33%;
+	height: 300px;
+	margin-bottom: 50px;
+	transition: background-color 0.5s ease-in;
+	-webkit-transition: background-color 0.5s ease-in;
+	-ms-transition: background-color 0.5s ease-in;
+	background-color: #ecf4fb;
+		
+}
+
+.leftCol:hover {
+  background-color: #fff;
+}
+
+.leftCol p, .leftCol h2{
+	padding:10px;
+}
+
+/*
+div {
+  transition: background-color 0.5s ease;
+  background-color: red;
+}
+div:hover {
+  background-color: green;
+}*/
+
+.centerCol {
+	float: left;
+	display: inline-block;
+	width: 33.33%;
+	height: 300px;
+	margin-bottom: 50px;
+	transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease-in;
+	-ms-transition: background-color 0.5s ease-in;
+	background-color: #E2E2E2;
+}
+
+.centerCol:hover {
+  background-color: #fff;
+}
+
+.centerCol p, .centerCol h2{
+	padding:10px;
+}
+
+.rightCol {
+	float: left;
+	display: inline-block;
+	width: 33.33%;
+	height: 300px;
+	margin-bottom: 50px;
+	transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease-in;
+	-ms-transition: background-color 0.5s ease-in;
+	background-color: #ecf4fb;
+		
+}
+
+.rightCol:hover {
+  background-color: #fff;
+}
+
+
+
+.rightCol p, .rightCol h2{
+	padding:10px;
+}
+
+
+
+/*Table Styles*/
+table {
+	clear: both;
+	background-color: transparent;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	
+}
+
+td {
+	width: 140px;
+	padding: 20px;
+}
+
+th {
+	
+	padding: 15px 5px;
+	text-align: center;
+	
+}
+
+caption {
+	padding: 20px;
+	font-size: 1.8em;
+	color: #000000;
+	background: #ecf4fb;
+}
+
+.money {
+	text-align: right;
+}
+
+.alt1 {
+	background-color: #ecf4fb;
+}
+
+.alt2 {
+	background-color: #E2E2E2;
+}
+
+
+/*footer*/
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+	height: 175px;	
+	background-color: #E2E2E2;
+}
+
+footer img {
+	float: right;
+	padding-top: 60px;
+	padding-right: 20px;
+}
+
+.footerLinks {
+	
+}
+
+.footerLinksLt {
+	float: left;
+	display: inline-block;	
+}
+
+.footerLinksRt {
+	float: left;
+	display: inline-block;	
+	margin-left: 80px;
+}
+
+ul {
+	line-height: 2;
+	margin: 40px 0 0 60px;
+	list-style: none;
+}
+
+ul a {
+	text-decoration: none;
+}

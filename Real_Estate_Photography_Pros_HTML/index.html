@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Real Estate Photography Pros</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="unslider_JS/unslider.js"></script>
+
+<script>
+$(function() {
+    	$('.banner').unslider();
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+ $(".scroll").click(function(event){  
+  event.preventDefault();
+  $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+ });
+});
+
+$('.banner').unslider({
+	speed: 500,               //  The speed to animate each slide (in milliseconds)
+	delay: 3000,              //  The delay between slide animations (in milliseconds)
+	keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+	dots: true,               //  Display dot navigation
+});
+
+
+</script>
+
+</head>
+
+<body>
+
+<section id="sec1">
+
+<img src="images/main_01.jpg" width="1000" height="222" alt="logo">
+<nav>
+    <ul class="home">
+      <li><a href="#sec1" class="scroll"><span>Home</span></a></li>
+      <li><a href="#sec2" class="scroll"><span>Shoot</span></a></li>
+      <li><a href="#sec3" class="scroll"><span>Edit</span></a></li>
+      <li><a href="#sec4" class="scroll"><span>Upload</span></a></li>
+    </ul>
+</nav>
+
+<div class="banner">
+<ul>
+    <li><img src="images/promo-section.jpg" width="1000" height="500" alt="promo"></li>
+    <li><img src="images/IMG_2311.jpg" width="1000" height="500" alt="house1"></li>
+    
+</ul>
+</div>
+
+
+</section>
+
+<section id="sec2">
+
+<nav>
+    <ul class="home">
+      <li><a href="#sec1" class="scroll"><span>Home</span></a></li>
+      <li><a href="#sec2" class="scroll"><span>Photos</span></a></li>
+      <li><a href="#sec3" class="scroll"><span>Rates</span></a></li>
+      <li><a href="#sec4" class="scroll"><span>Contact</span></a></li>
+    </ul>
+</nav>
+
+<div class="textClearfix"><h1>First, We shoot your client's property...</h1></div>
+
+<div class="banner">
+
+<ul>
+	<li><img src="images/sw_1.jpg" width="1000" height="500" alt="house2"></li>
+	<li><img src="images/IMG_2367.jpg" width="1000" height="500" alt="interior1"></li>
+    <li><img src="images/IMG_2371.jpg" width="1000" height="500" alt="interior2"></li>
+    <li><img src="images/IMG_2373.jpg" width="1000" height="500" alt="interior3"></li>
+    <li><img src="images/IMG_2387.jpg" width="1000" height="500" alt="interior4"></li>
+    <li><img src="images/IMG_2390.jpg" width="1000" height="500" alt="interior5"></li>
+</ul>
+</div>
+
+</section>
+
+<section id="sec3">
+
+<nav>
+    <ul class="home">
+      <li><a href="#sec1" class="scroll"><span>Home</span></a></li>
+      <li><a href="#sec2" class="scroll"><span>Photos</span></a></li>
+      <li><a href="#sec3" class="scroll"><span>Rates</span></a></li>
+      <li><a href="#sec4" class="scroll"><span>Contact</span></a></li>
+    </ul>
+</nav>
+
+<div class="textClearfix"><h1>Then we work quickly to edit your client's photos...</h1></div>
+<img src="images/main_08.jpg" width="1000" height="500
+" alt="edit">
+</section>
+
+
+<section id="sec4">
+
+<nav>
+    <ul class="home">
+      <li><a href="#sec1" class="scroll"><span>Home</span></a></li>
+      <li><a href="#sec2" class="scroll"><span>Photos</span></a></li>
+      <li><a href="#sec3" class="scroll"><span>Rates</span></a></li>
+      <li><a href="#sec4" class="scroll"><span>Contact</span></a></li>
+    </ul>
+</nav>
+
+<div class="textClearfix"><h1>Then we upload your client's photos however you would like.</h1></div>
+
+<img src="images/upload-section.jpg" width="1000" height="500" alt="upload">
+<div class="textClearfix"><h1>Then you promptly sell your client's house.</h1></div></br>
+
+</section>
+
+<footer  class="textClearfix">
+
+<div><img src="images/Ecommerce-Handshake-icon.png" width="256" height="256" alt="handshake"></div>
+<div><h1>Call or email Today.</h1></div> 
+<h1><a href="mailto:mike@m7p.ca">mike@m7p.ca</a></h1>
+<div><h1>519 257 5129</h1></div>
+
+</footer>
+
+
+</body>
+</html>

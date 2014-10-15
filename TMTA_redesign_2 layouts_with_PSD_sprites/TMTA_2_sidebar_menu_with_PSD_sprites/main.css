@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Raleway', sans-serif;
+}
+
+.logoHidden {
+	visibility: hidden;	
+}
+
+
+#wrap {
+	margin: 0 auto;
+	width: 960px;
+	
+}
+
+img {
+	margin: 0;
+	padding:0;
+}
+
+
+
+a {
+	text-decoration: none;	
+	color: inherit;
+}
+
+a:hover {
+	color: #015a8d;	
+}
+
+aside {
+	
+	width: 300px;
+	
+	background: #015a8d;
+	float: left;
+	/*margin-left: 28px;*/
+	color: #fff;
+	clear: right;
+}
+
+aside h1, p{
+	margin-right: 15px;
+	text-align: right;
+	width: 275px;
+}
+
+aside p {
+	line-height: 2;	
+}
+
+.sideBarBox {
+	padding: 15px;
+}
+
+article {
+	width: 660px;
+	float: left;
+	margin:0;
+	padding:0;
+	
+}
+
+article h1 {
+	display:block;
+	margin-top: 50px;
+	
+}
+
+.panel {
+	margin:0;
+	padding:0;
+}
+	
+
+.rule {
+	background: #004788;
+}
+
+.panel3 h1 {
+	width:550px;
+	text-align:center;
+	line-height:1.2;
+	padding: 30px;
+	color: #4a6f84;
+	font-weight: 300;
+}
+
+
+
+ 	/*navigation*/
+ 
+nav span {
+	 visibility: hidden;
+ }
+ 
+nav {
+	background: url(images/menuSprite.png) repeat-x;
+	height: 600px;
+	width: 300px;
+	
+}
+
+nav ul a {
+	display: block;
+	width: 300px;
+	height:100px;	
+	list-style-type: none;
+	font-size: 1.5em;
+	color: #fff;
+	/*margin-left: 10px;*/
+	margin-left:-40px;
+	padding:0;
+	-webkit-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+
+}
+
+nav ul li {
+	list-style-type: none;	
+}
+
+	/*home*/
+nav a[href="home.html"] {
+	background: url(images/menuSprite.png) no-repeat 0 0;
+	overflow: hidden; 
+}
+	
+nav a[href="home.html"]:hover {
+	background: url(images/menuSprite.png) no-repeat -300px 0px;
+	overflow: hidden;
+}
+
+/*newsletter*/
+nav a[href="newsletter.html"] {
+	background: url(images/menuSprite.png) no-repeat 0 -100px;
+	overflow: hidden; 
+}
+	
+nav a[href="newsletter.html"]:hover {
+	background: url(images/menuSprite.png) no-repeat -300px -100px;
+	overflow: hidden;
+}
+
+/*about*/
+nav a[href="about.html"] {
+	background: url(images/menuSprite.png) no-repeat 0 -200px;
+	overflow: hidden; 
+}
+	
+nav a[href="about.html"]:hover {
+	background: url(images/menuSprite.png) no-repeat -300px -200px;
+	overflow: hidden;
+}
+
+/*join*/
+nav a[href="join.html"] {
+	background: url(images/menuSprite.png) no-repeat 0 -300px;
+	overflow: hidden; 
+}
+	
+nav a[href="join.html"]:hover {
+	background: url(images/menuSprite.png) no-repeat -300px -300px;
+	overflow: hidden;
+}
+
+/*directors*/
+nav a[href="directors.html"] {
+	background: url(images/menuSprite.png) no-repeat 0 -400px;
+	overflow: hidden; 
+}
+	
+nav a[href="directors.html"]:hover {
+	background: url(images/menuSprite.png) no-repeat -300px -400px;
+	overflow: hidden;
+}
+
+/*contact*/
+nav a[href="contact.html"] {
+	background: url(images/menuSprite.png) no-repeat 0 -500px;
+	overflow: hidden; 
+}
+	
+nav a[href="contact.html"]:hover {
+	background: url(images/menuSprite.png) no-repeat -300px -500px;
+	overflow: hidden;
+}
+
+
+.topHr {
+	width: 100%;
+	margin: 0 auto;
+	
+		
+}
+
+hr {
+	width: 75%;	
+}
+
+
+
+footer img {
+	margin-left: 200px;
+	margin-top: 100px;
+	clear: article;
+}
+
+
+/*I played around with media queries but I couldn't really make anything work properly*/
+
+/*@media (max-width: 380px) {
+	
+	#wrap {
+		width: 200px;
+	}
+	
+	 article img {
+		width:50%;
+		height:50%;
+	}
+	
+	aside {
+		width: 380px;
+	}
+	
+	.logoImg {
+		visibility: hidden;
+	}
+	
+	aside h1, p {
+		text-align: center;	
+		width: 400px;
+	}
+	
+}
+*/
+/*@media (min-width: 960px) {
+	
+	body {
+		margin: 0 auto;
+		padding:0;
+	}
+	
+	 article img{
+		width: 75%;
+		height: 75%;
+	}
+	
+	aside {
+		width: 600px;
+		margin-right: 20px;
+		
+	}
+	
+	aside h1, p {
+		text-align: center;	
+		width: 600px;
+	}
+	
+	.logoHidden {
+		visibility: visible;
+		
+		position: relative;
+		
+}
+
+	.logoImg {
+		visibility: hidden;
+	}
+	
+}*/

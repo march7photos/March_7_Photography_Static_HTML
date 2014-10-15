@@ -1,0 +1,137 @@
+body {
+background-color: #AAD2CB;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+letter-spacing: 0.5px;
+}
+
+#wrap {
+width: 80%;
+margin: 20px auto;
+background: #fff;
+border: 1px solid #333;
+border-radius: 10px;
+padding: 30px;
+}
+
+#banner {
+/* line-height: 0; */
+}
+
+#banner h1 {
+font: 48px 'Abril Fatface', cursive;
+line-height: 0;
+text-align: center;
+padding-top: 30px;
+
+}
+
+#banner h3 {
+font-size: 15px;
+text-align: center;
+padding-bottom: 30px;
+}
+
+
+#nav ul {
+text-align: center;
+padding: 20px ;
+border-top: 1px dotted #CD8BA2;
+border-bottom: 1px dotted #CD8BA2;
+}
+
+
+#nav li{
+display: inline;
+padding: 5px 25px;
+border-right: 1px solid #333;
+}
+
+#nav a {
+text-decoration: none;
+color: #CD8BA2;
+font-weight: 600;
+font-size: 20px;
+}
+
+#nav a:hover {
+text-decoration: none;
+color: #F3E5E6;
+}
+
+#content h2 {
+font: 40px 'Abril Fatface', cursive;
+color: #CD8BA2;
+text-align: center;
+padding: 15px 0 35px 0;
+
+}
+
+.bears {
+float: left;
+border: 1px solid #DBF3F3;
+padding: 20px;
+margin: 20px;
+}
+
+.train {
+float: right;
+width: 35%;
+border: 1px solid #DBF3F3;
+padding: 0px 10px 10px 10px;
+
+}
+
+
+/*Table Styles*/
+table {
+	background-color: transparent;
+    float: left;
+    width: 64%;
+	padding-bottom: 40px;
+	
+}
+
+td {
+	width: 20px;
+	padding: 10px;
+}
+
+
+
+caption {
+	padding: 20px;
+	font-family: Arial, Gadget, sans-serif;
+/* 	font-size: 1.8em; */
+	font-weight: bold;
+	color: #000000;
+}
+
+.money {
+	text-align: right;
+}
+
+.alt1 {
+	background-color: #D2E9E9;
+}
+
+.alt2 {
+	background-color: #fff;
+}
+
+
+
+#footer {
+border-top: 1px solid #333;
+padding: 10px 0;
+color: #7FC3BA;
+}
+
+#footer a {
+text-decoration: none;
+color: #7FC3BA;
+}
+
+#footer a:hover {
+color: #CD8BA2;
+}

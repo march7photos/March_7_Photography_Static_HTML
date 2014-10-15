@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+nav, header, main, section {display: block;}
+
+
+body {
+	background: url(images/banner.gif) no-repeat #3f414c;
+	background-size: 100% 300px;
+} 
+
+h1 {
+	color: #fff;
+}
+
+#logo{
+	float: right;
+	width: 486px;
+}
+
+nav{
+	clear: both;
+	float: right;
+	margin-top: 210px;
+}
+
+nav li{
+	float: left;
+	list-style: none;
+}
+
+nav a{
+	display: block;
+	width: 150px;
+	padding: 15px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	color: white;
+	font: 16px Verdana, Geneva, sans-serif;
+	text-decoration: none;
+}
+
+
+
+main {
+	clear: both;
+	width: 80%;
+	margin: 10px auto;	
+}
+
+main h1 {
+	font: normal 36px Tahoma, Geneva, sans-serif;	
+}
+
+#officegallery li {
+	float: left;
+	list-style: none;
+}
+
+/*#officegallery img {
+		transition: transform 1s ease-out;
+		
+}*/
+
+#officegallery img:hover {
+	-webkit-transform: rotate(362deg) scale(1.3);
+	-moz-transform: rotate(362deg) scale(1.3);
+	-o-transform: rotate(362deg) scale(1.3);
+	transform: rotate(362deg) scale(1.3);
+	transition: all 1s ease-in;
+}
+
+#officegallery {
+	padding: 0;
+	margin: 0;
+}
+	
+
+#officegallery img {
+	border: 10px solid white;
+	border-bottom: 30px solid white; 
+	margin-right: 10px;	
+}
+
+main p {
+	clear: both;
+	font: 16px/1.7 Verdana, Geneva, sans-serif;
+	color: #ccc;
+}
+
+#officeGal {
+	width: 400px;
+	height: 300px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+#officeGal img {
+	border: 1px solid #333;
+}
+
+#officeGal li {
+	list-style: none;
+	
+}
+
+#thumbs {
+	margin: 0;
+	padding: 0;
+	width: 90px;
+	height: 68px;
+	float: left;
+}
+
+#thumbs li {
+	list-style: none;
+	padding-bottom: 1px;
+}
+
+#thumbs img {
+	border: 1px solid black;
+}
